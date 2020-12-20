@@ -1,7 +1,13 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link :to="{ name: 'Bathroom'}">Bathroom</router-link>
+<!--    <router-link to="/">Home</router-link> |-->
+<!--    <router-link :to="{name: 'CandleChart'}">-->
+<!--      Candle-->
+<!--    </router-link> |-->
+<!--    <router-link :to="{ name: 'Bathroom', params: {lamp:2}}"-->
+<!--    >-->
+<!--      Bathroom-->
+<!--    </router-link>-->
   </div>
   <router-view/>
 </template>
